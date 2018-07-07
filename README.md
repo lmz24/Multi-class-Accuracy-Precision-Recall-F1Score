@@ -1,23 +1,10 @@
+Inputs:
+1) y_true = [1, 2, 0, 0, 1, 2, 2, 0, 0, 1, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0, 2, 2, 1, 0, 2]
+2) y_pred = [0, 1, 0, 1, 1, 0, 2, 0, 0, 2, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0, 1, 1, 2, 2, 0]
+3) num_classes = 3
 
-
-
-
-
-Input:
-
-1) $y\_pred$
-
-2) $y\_true$
-
-3) $num\_classes = 3$
-
-By running the function $accuracy\_precision\_f1score(y\_pred, y\_true, num\_classes)$, we obtain the following accuracy, precision, and F1-score:
-
-Output:
-
+Outputs:
 1) accuracy = 0.6428571428571429
-
 2) precision = 0.6492063492063492
-
-3) F1-score = 0.6424751718869367.
+3) f1score = 0.6424751718869367.
 
