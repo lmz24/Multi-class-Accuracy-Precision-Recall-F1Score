@@ -3,6 +3,8 @@ Inputs:
 2) y_pred = [0, 1, 0, 1, 1, 0, 2, 0, 0, 2, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0, 1, 1, 2, 2, 0]
 3) num_classes = 3
 
+python3 acc_prec_f1_7_7_18.py
+
 Outputs:
 1) accuracy = 0.6428571428571429
 2) precision = 0.6492063492063492
