@@ -1,3 +1,6 @@
+TheoreticalDetails.pdf explains how to calculate accuracy, weighted recall, weighted precision, and weighted F1-score for multi-class classification. A simple example is also given.
+
+
 Inputs:
 
 1) y_true = [1, 2, 0, 0, 1, 2, 2, 0, 0, 1, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0, 2, 2, 1, 0, 2]
