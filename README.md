@@ -1,13 +1,12 @@
 TheoreticalDetails.pdf explains how to calculate accuracy, weighted recall, weighted precision, and weighted F1-score for multi-class classification. A simple example is also given.
 
+Run: python3 multi_class_acc_prec_f1.py
 
 Inputs:
 
 1) y_true = [1, 2, 0, 0, 1, 2, 2, 0, 0, 1, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0, 2, 2, 1, 0, 2]
 2) y_pred = [0, 1, 0, 1, 1, 0, 2, 0, 0, 2, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0, 1, 1, 2, 2, 0]
 3) num_classes = 3
-
-Run: python3 multi_class_acc_prec_f1.py
 
 Output:
 
