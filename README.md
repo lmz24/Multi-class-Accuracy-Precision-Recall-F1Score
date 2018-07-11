@@ -1,4 +1,4 @@
-The PDF file (TheoreticalDetails.pdf) explains how to calculate accuracy, weighted recall, weighted precision, and weighted F1-score for multi-class classification (more than 2 classes). The Python code (multi_class_acc_rec_prec_f1.py) has a function (multi_class_accuracy_precision_f1score) that efficiently calculates the accuracy, weighted recall, weighted precision, and weighted F1-score. It also includes a simple example that is shown below.
+The PDF file (TheoreticalDetails.pdf) explains how to calculate accuracy, weighted recall, weighted precision, and weighted F1-score for multi-class classification (more than 2 classes). The Python code (multi_class_acc_rec_prec_f1.py) has a function (multi_class_accuracy_precision_f1score) that efficiently calculates the accuracy, weighted recall, weighted precision, and weighted F1-score. It has 3 inputs (y_true, y_pred, num_classes) where y_true is the list of true classes, y_pred is the list of corresponding predicted classes, and num_classes is the total number of classes. It also includes a simple example that is shown below.
 
 Run: python3 multi_class_acc_rec_prec_f1.py
 
