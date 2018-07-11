@@ -4,13 +4,13 @@ Run: python3 multi_class_acc_rec_prec_f1.py
 
 Simple Example:
 
-  Inputs to multi_class_accuracy_precision_f1score:
+- Inputs to multi_class_accuracy_precision_f1score:
 
   1) y_true = [1, 2, 0, 0, 1, 2, 2, 0, 0, 1, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0, 2, 2, 1, 0, 2]
   2) y_pred = [0, 1, 0, 1, 1, 0, 2, 0, 0, 2, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0, 1, 1, 2, 2, 0]
   3) num_classes = 3
 
-  Outputs:
+- Outputs:
 
   1) Accuracy = 0.6428571428571429
   2) Weighted recall = 0.6428571428571429
