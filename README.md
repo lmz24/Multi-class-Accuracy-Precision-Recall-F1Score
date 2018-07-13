@@ -13,7 +13,6 @@ Simple Example:
 - Outputs:
 
   1) Accuracy = 0.6428571428571429
-  2) Weighted recall = 0.6428571428571429
-  3) Weighted precision = 0.6492063492063492
+  2) Weighted precision = 0.6492063492063492
+  3) Weighted recall = 0.6428571428571429
   4) Weighted F1-score = 0.6424751718869367
-
