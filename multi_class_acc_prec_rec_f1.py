@@ -29,10 +29,10 @@ def multi_class_accuracy_precision_f1score(y_true, y_pred, num_classes):
             f1score += g/(support + sum_column)
 
             if sum_column != 0:
-                precision += g/sum_column
+                precision += g / sum_column
 
-    accuracy = sum_diagonal/N
+    accuracy = sum_diagonal / N
     precision /= N
-    f1score = 2 * f1score/N
+    f1score = 2 * f1score / N
 
     return accuracy, precision, f1score
