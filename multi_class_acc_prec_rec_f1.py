@@ -3,10 +3,10 @@ def multi_class_accuracy_precision_f1score(y_true, y_pred, num_classes):
     # calculates accuracy, weighted precision, and weighted f1-score for n-class classification for n>=3
     # note that weighted recall is the same as accuracy
 
-    k = len(y_true)
+    N = len(y_true)
     confusion_matrix = [[0 for _ in range(num_classes)] for _ in range(num_classes)]
 
-    for i in range(0, k):
+    for i in range(0, N):
         confusion_matrix[y_true[i]][y_pred[i]] += 1
 
     sum_diagonal = 0
@@ -32,13 +32,12 @@ def multi_class_accuracy_precision_f1score(y_true, y_pred, num_classes):
             if sum_column != 0:
                 precision += g/sum_column
 
-    accuracy = sum_diagonal/k
-    precision /= k
-    f1score = 2 * f1score/k
+    accuracy = sum_diagonal/N
+    precision /= N
+    f1score = 2 * f1score/N
 
     return accuracy, precision, f1score
 
- 
 # simple example
 y_true = [1, 2, 0, 0, 1, 2, 2, 0, 0, 1, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0, 2, 2, 1, 0, 2]
 y_pred = [0, 1, 0, 1, 1, 0, 2, 0, 0, 2, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0, 1, 1, 2, 2, 0]
