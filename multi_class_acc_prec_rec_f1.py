@@ -1,4 +1,3 @@
-
 def multi_class_accuracy_precision_f1score(y_true, y_pred, num_classes):
     # calculates accuracy, weighted precision, and weighted f1-score for n-class classification for n>=3
     # note that weighted recall is the same as accuracy
