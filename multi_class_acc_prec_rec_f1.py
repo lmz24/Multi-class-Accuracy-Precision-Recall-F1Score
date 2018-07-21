@@ -26,7 +26,7 @@ def multi_class_accuracy_precision_f1score(y_true, y_pred, num_classes):
 
         if support != 0:
             g = confusion_matrix[i][i] * support
-            f1score += g/(support + sum_column)
+            f1score += g / (support + sum_column)
 
             if sum_column != 0:
                 precision += g / sum_column
