@@ -36,15 +36,3 @@ def multi_class_accuracy_precision_f1score(y_true, y_pred, num_classes):
     f1score = 2 * f1score/N
 
     return accuracy, precision, f1score
-
-# simple example
-y_true = [1, 2, 0, 0, 1, 2, 2, 0, 0, 1, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0, 2, 2, 1, 0, 2]
-y_pred = [0, 1, 0, 1, 1, 0, 2, 0, 0, 2, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0, 1, 1, 2, 2, 0]
-num_classes = 3
-
-accuracy, precision, f1score = multi_class_accuracy_precision_f1score(y_true, y_pred, num_classes)
-recall = accuracy
-print('Accuracy = {}'.format(accuracy))
-print('Weighted precision = {}'.format(precision))
-print('Weighted recall = {}'.format(recall))
-print('Weighted F1-score = {}'.format(f1score))
